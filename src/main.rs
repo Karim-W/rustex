@@ -1,6 +1,7 @@
 mod guess;
-
+mod threads;
 fn main(){
     println!("rustex");
-    guess::guess();
+    //guess::guess();
+    threads::thrd();
 }
